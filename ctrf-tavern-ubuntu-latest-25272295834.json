@@ -1,0 +1,5569 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "reportId": "37546988-19a3-463b-885f-7645eb34b8c3",
+  "timestamp": "2026-05-04T00:52:51.924535933Z",
+  "generatedBy": "go-ctrf-json-reporter",
+  "results": {
+    "tool": {
+      "name": "gotest"
+    },
+    "summary": {
+      "tests": 616,
+      "passed": 616,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 0,
+      "stop": 66818
+    },
+    "tests": [
+      {
+        "name": "TestConfigureMySQLFromEnv/SQLLite",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903675,
+        "stop": 1777855903691,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureMySQLFromEnv/Defaults",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903676,
+        "stop": 1777855903691,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureMySQLFromEnv/MissingAddr",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903678,
+        "stop": 1777855903691,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureMySQLFromEnv/ValuesWithAddr",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903678,
+        "stop": 1777855903691,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureMySQLFromEnv/DefaultsWithAddr",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903678,
+        "stop": 1777855903691,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureMySQLFromEnv/SQLLite#01",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855903678,
+        "stop": 1777855903691,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureMySQLFromEnv",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855903675,
+        "stop": 1777855903691,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureOAuthFromEnv/NoEnvVarsSet",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903691,
+        "stop": 1777855903693,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureOAuthFromEnv/WithoutDomainSchema",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903692,
+        "stop": 1777855903693,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureOAuthFromEnv/Enabled",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903692,
+        "stop": 1777855903693,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigureOAuthFromEnv",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903691,
+        "stop": 1777855903693,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigurePubSubFromEnv/Default",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903693,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigurePubSubFromEnv/Set",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903693,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestConfigurePubSubFromEnv",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903693,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/config_test.go"
+      },
+      {
+        "name": "TestEnvBool/Set",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/internal/portals/portal_close_test.go"
+      },
+      {
+        "name": "TestEnvBool/Unset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/internal/portals/pty/websocket_test.go"
+      },
+      {
+        "name": "TestEnvBool/Default",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/internal/portals/portal_close_test.go"
+      },
+      {
+        "name": "TestEnvBool",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/env_test.go"
+      },
+      {
+        "name": "TestEnvString/Set",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/internal/portals/pty/websocket_test.go"
+      },
+      {
+        "name": "TestEnvString/Unset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestEnvString/Default",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/env_test.go"
+      },
+      {
+        "name": "TestEnvString",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/internal/portals/portal_close_test.go"
+      },
+      {
+        "name": "TestEnvInteger/Set",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/env_test.go"
+      },
+      {
+        "name": "TestEnvInteger/Unset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903695,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/internal/portals/portal_close_test.go"
+      },
+      {
+        "name": "TestEnvInteger/Default",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903696,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/env_test.go"
+      },
+      {
+        "name": "TestEnvInteger",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903695,
+        "stop": 1777855903696,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/internal/portals/portal_close_test.go"
+      },
+      {
+        "name": "TestTokenAuthenticate",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903860,
+        "stop": 1777855903860,
+        "suite": "realm.pub/tavern/cli/auth",
+        "filePath": "tavern/cli/auth/auth_test.go"
+      },
+      {
+        "name": "TestMainFunc",
+        "status": "passed",
+        "duration": 250,
+        "start": 1777855903696,
+        "stop": 1777855903947,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/main_test.go"
+      },
+      {
+        "name": "TestStatusHandler",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855903947,
+        "stop": 1777855903948,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/status_test.go"
+      },
+      {
+        "name": "TestAuthenticate/Admin",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855904918,
+        "stop": 1777855904930,
+        "suite": "realm.pub/tavern/cli/auth",
+        "filePath": "tavern/cli/auth/auth_test.go"
+      },
+      {
+        "name": "TestAuthenticate/User",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855904923,
+        "stop": 1777855904930,
+        "suite": "realm.pub/tavern/cli/auth",
+        "filePath": "tavern/cli/auth/auth_test.go"
+      },
+      {
+        "name": "TestAuthenticate/InvalidURL",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855904926,
+        "stop": 1777855904930,
+        "suite": "realm.pub/tavern/cli/auth",
+        "filePath": "tavern/cli/auth/auth_test.go"
+      },
+      {
+        "name": "TestAuthenticate",
+        "status": "passed",
+        "duration": 1070,
+        "start": 1777855903860,
+        "stop": 1777855904930,
+        "suite": "realm.pub/tavern/cli/auth",
+        "filePath": "tavern/cli/auth/auth_test.go"
+      },
+      {
+        "name": "TestContextFromTokens_Invalid/ContextFromSessionToken_NotFound",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906122,
+        "stop": 1777855906132,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_edge_cases_test.go"
+      },
+      {
+        "name": "TestContextFromTokens_Invalid/ContextFromAccessToken_NotFound",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906125,
+        "stop": 1777855906132,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_edge_cases_test.go"
+      },
+      {
+        "name": "TestContextFromTokens_Invalid",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855906089,
+        "stop": 1777855906132,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_edge_cases_test.go"
+      },
+      {
+        "name": "TestContextHelpers_EdgeCases/EmptyContext",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906132,
+        "stop": 1777855906132,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_edge_cases_test.go"
+      },
+      {
+        "name": "TestContextHelpers_EdgeCases",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906132,
+        "stop": 1777855906132,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_edge_cases_test.go"
+      },
+      {
+        "name": "TestContextFromSessionToken/InactiveUser",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906149,
+        "stop": 1777855906154,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_test.go"
+      },
+      {
+        "name": "TestContextFromSessionToken/User",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906150,
+        "stop": 1777855906154,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_test.go"
+      },
+      {
+        "name": "TestContextFromSessionToken/Admin",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906150,
+        "stop": 1777855906154,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_test.go"
+      },
+      {
+        "name": "TestContextFromSessionToken",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855906132,
+        "stop": 1777855906154,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_test.go"
+      },
+      {
+        "name": "TestContextFromAccessToken/InactiveUser",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906170,
+        "stop": 1777855906173,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_test.go"
+      },
+      {
+        "name": "TestContextFromAccessToken/User",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906170,
+        "stop": 1777855906174,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_test.go"
+      },
+      {
+        "name": "TestContextFromAccessToken/Admin",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906171,
+        "stop": 1777855906174,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_test.go"
+      },
+      {
+        "name": "TestContextFromAccessToken",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855906155,
+        "stop": 1777855906174,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/context_test.go"
+      },
+      {
+        "name": "TestNewOAuthLoginHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855906174,
+        "stop": 1777855906181,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/oauth_test.go"
+      },
+      {
+        "name": "TestNewOAuthAuthorizationHandler",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855906181,
+        "stop": 1777855906210,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/oauth_test.go"
+      },
+      {
+        "name": "TestNewOAuthAuthorizationHandler_DBError",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855906210,
+        "stop": 1777855906230,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/oauth_test.go"
+      },
+      {
+        "name": "TestNewTokenRedirectHandler/Redirect",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906242,
+        "stop": 1777855906245,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/token_auth_test.go"
+      },
+      {
+        "name": "TestNewTokenRedirectHandler/Unauthenticated",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906243,
+        "stop": 1777855906245,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/token_auth_test.go"
+      },
+      {
+        "name": "TestNewTokenRedirectHandler/InvalidPortRange",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906243,
+        "stop": 1777855906245,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/token_auth_test.go"
+      },
+      {
+        "name": "TestNewTokenRedirectHandler/InvalidPortType",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906243,
+        "stop": 1777855906245,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/token_auth_test.go"
+      },
+      {
+        "name": "TestNewTokenRedirectHandler/NoPort",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906243,
+        "stop": 1777855906245,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/token_auth_test.go"
+      },
+      {
+        "name": "TestNewTokenRedirectHandler",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855906230,
+        "stop": 1777855906245,
+        "suite": "realm.pub/tavern/internal/auth",
+        "filePath": "tavern/internal/auth/token_auth_test.go"
+      },
+      {
+        "name": "TestExecutorIntegration_ClaimAndExecuteWithMock",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855906558,
+        "stop": 1777855906600,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/executor_integration_test.go"
+      },
+      {
+        "name": "TestExecutorIntegration_ClaimAndExecuteWithMockError",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855906600,
+        "stop": 1777855906636,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/executor_integration_test.go"
+      },
+      {
+        "name": "TestExecutorIntegration_StreamBuildOutput",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855906636,
+        "stop": 1777855906670,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/executor_integration_test.go"
+      },
+      {
+        "name": "TestExecutorIntegration_StreamBuildOutputWithError",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855906670,
+        "stop": 1777855906698,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/executor_integration_test.go"
+      },
+      {
+        "name": "TestExecutorIntegration_UploadBuildArtifact",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855906698,
+        "stop": 1777855906731,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/executor_integration_test.go"
+      },
+      {
+        "name": "TestCreateTestData/ParamDefsTest",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906747,
+        "stop": 1777855906755,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/test_data_test.go"
+      },
+      {
+        "name": "TestCreateTestData/ProcessListTest",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906747,
+        "stop": 1777855906755,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/test_data_test.go"
+      },
+      {
+        "name": "TestCreateTestData",
+        "status": "passed",
+        "duration": 2810,
+        "start": 1777855903948,
+        "stop": 1777855906755,
+        "suite": "realm.pub/tavern",
+        "filePath": "tavern/test_data_test.go"
+      },
+      {
+        "name": "TestBuilderE2E/unauthenticated_request_rejected",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855906745,
+        "stop": 1777855906822,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/integration_test.go"
+      },
+      {
+        "name": "TestBuilderE2E/authenticated_request_succeeds",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855906748,
+        "stop": 1777855906822,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/integration_test.go"
+      },
+      {
+        "name": "TestBuilderE2E/ClaimBuildTasks",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855906760,
+        "stop": 1777855906822,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/integration_test.go"
+      },
+      {
+        "name": "TestBuilderE2E/StreamBuildTaskOutput",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855906774,
+        "stop": 1777855906822,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/integration_test.go"
+      },
+      {
+        "name": "TestBuilderE2E/StreamBuildTaskOutputWithError",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855906791,
+        "stop": 1777855906822,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/integration_test.go"
+      },
+      {
+        "name": "TestBuilderE2E/StreamBuildTaskOutputWrongBuilder",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855906807,
+        "stop": 1777855906822,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/integration_test.go"
+      },
+      {
+        "name": "TestBuilderE2E",
+        "status": "passed",
+        "duration": 90,
+        "start": 1777855906731,
+        "stop": 1777855906822,
+        "suite": "realm.pub/tavern/internal/builder",
+        "filePath": "tavern/internal/builder/integration_test.go"
+      },
+      {
+        "name": "TestDockerExecutor_ImplementsInterface",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907460,
+        "stop": 1777855907463,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/docker_test.go"
+      },
+      {
+        "name": "TestHostPlatformValues",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907904,
+        "stop": 1777855907905,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformValue",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907905,
+        "stop": 1777855907906,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformMarshalGraphQL",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907906,
+        "stop": 1777855907907,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformUnmarshalGraphQL",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907907,
+        "stop": 1777855907907,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformScan/Linux_String",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907907,
+        "stop": 1777855907909,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformScan/Windows_[]uint8",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907907,
+        "stop": 1777855907909,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformScan/Invalid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907907,
+        "stop": 1777855907909,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformScan/Empty",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907907,
+        "stop": 1777855907909,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformScan/Nil",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907909,
+        "stop": 1777855907909,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestHostPlatformScan",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907907,
+        "stop": 1777855907909,
+        "suite": "realm.pub/tavern/internal/c2/c2pb",
+        "filePath": "tavern/internal/c2/c2pb/enum_host_platform_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_Only",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907942,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/redirectors/http1/handlers_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Redirected-For_With_X-Forwarded-For",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907943,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/Neither_Header_Set_Uses_Peer_IP",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907943,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_With_Multiple_IPs",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907943,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_With_Whitespace",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907943,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Redirected-For_Precedence_Over_Peer",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907944,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/Invalid_X-Forwarded-For_Fallback_To_Peer",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907944,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/No_Metadata_No_Peer_Returns_Unknown",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907944,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/Malformed_X-Redirected-For_Returns_As_Is",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907944,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/redirectors/http1/handlers_test.go"
+      },
+      {
+        "name": "TestGetClientIP/Malformed_X-Forwarded-For_Without_Peer_Returns_Unknown",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907944,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907942,
+        "stop": 1777855907944,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/redirectors/http1/handlers_test.go"
+      },
+      {
+        "name": "TestJWTValidate",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907944,
+        "stop": 1777855907949,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestHandleTomeAutomation/New_Beacon_Only",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907962,
+        "stop": 1777855907981,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/tome_automation_test.go"
+      },
+      {
+        "name": "TestHandleTomeAutomation/New_Host_Only",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907966,
+        "stop": 1777855907981,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/tome_automation_test.go"
+      },
+      {
+        "name": "TestHandleTomeAutomation/Both_New",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907971,
+        "stop": 1777855907981,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/tome_automation_test.go"
+      },
+      {
+        "name": "TestHandleTomeAutomation/Neither_New",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855907975,
+        "stop": 1777855907981,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/tome_automation_test.go"
+      },
+      {
+        "name": "TestHandleTomeAutomation",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855907949,
+        "stop": 1777855907981,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/tome_automation_test.go"
+      },
+      {
+        "name": "TestHandleTomeAutomation_Deduplication",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855907981,
+        "stop": 1777855907994,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/tome_automation_test.go"
+      },
+      {
+        "name": "TestHandleTomeAutomation_IntervalWindow",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855907994,
+        "stop": 1777855908012,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/tome_automation_test.go"
+      },
+      {
+        "name": "TestHandleTomeAutomation_CronRange",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855908012,
+        "stop": 1777855908027,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/tome_automation_test.go"
+      },
+      {
+        "name": "TestClaimTasks/First_Callback",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855908052,
+        "stop": 1777855908077,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_claim_tasks_test.go"
+      },
+      {
+        "name": "TestClaimTasks/Second_Callback",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855908058,
+        "stop": 1777855908077,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_claim_tasks_test.go"
+      },
+      {
+        "name": "TestClaimTasks/Existing_Beacon",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855908061,
+        "stop": 1777855908077,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_claim_tasks_test.go"
+      },
+      {
+        "name": "TestClaimTasks",
+        "status": "passed",
+        "duration": 50,
+        "start": 1777855908027,
+        "stop": 1777855908077,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_claim_tasks_test.go"
+      },
+      {
+        "name": "TestFetchAsset/Small_File",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855908089,
+        "stop": 1777855908901,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_fetch_asset_test.go"
+      },
+      {
+        "name": "TestFetchAsset/Large_File",
+        "status": "passed",
+        "duration": 790,
+        "start": 1777855908094,
+        "stop": 1777855908901,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_fetch_asset_test.go"
+      },
+      {
+        "name": "TestFetchAsset/File_Not_Found",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855908888,
+        "stop": 1777855908902,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_fetch_asset_test.go"
+      },
+      {
+        "name": "TestFetchAsset",
+        "status": "passed",
+        "duration": 820,
+        "start": 1777855908077,
+        "stop": 1777855908902,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_fetch_asset_test.go"
+      },
+      {
+        "name": "TestHostAccessLost",
+        "status": "passed",
+        "duration": 70,
+        "start": 1777855908902,
+        "stop": 1777855908968,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_host_check_test.go"
+      },
+      {
+        "name": "TestHostAccessLostSkippedWhenNotOverdue",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855908968,
+        "stop": 1777855909000,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_host_check_test.go"
+      },
+      {
+        "name": "TestHostAccessRecoveredViaClaimTasks",
+        "status": "passed",
+        "duration": 60,
+        "start": 1777855909000,
+        "stop": 1777855909059,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_host_check_test.go"
+      },
+      {
+        "name": "TestReportCredential/DuplicateCredential",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855909080,
+        "stop": 1777855909101,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_credential_test.go"
+      },
+      {
+        "name": "TestReportCredential/NewCredential",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855909088,
+        "stop": 1777855909101,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_credential_test.go"
+      },
+      {
+        "name": "TestReportCredential/NoTaskID",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909093,
+        "stop": 1777855909101,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_credential_test.go"
+      },
+      {
+        "name": "TestReportCredential/NoCredential",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909095,
+        "stop": 1777855909101,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_credential_test.go"
+      },
+      {
+        "name": "TestReportCredential/NotFound",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909095,
+        "stop": 1777855909102,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_credential_test.go"
+      },
+      {
+        "name": "TestReportCredential",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855909059,
+        "stop": 1777855909102,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_credential_test.go"
+      },
+      {
+        "name": "TestComputeAcksNacks/empty_chunks",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909146,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestComputeAcksNacks/single_chunk",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909146,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestComputeAcksNacks/consecutive_chunks",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909146,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestComputeAcksNacks/gap_in_middle",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909146,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestComputeAcksNacks/multiple_gaps",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909146,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestComputeAcksNacks",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909144,
+        "stop": 1777855909146,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleInit/valid_init_packet",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909148,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleInit/invalid_init_payload",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909148,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleInit/data_size_exceeds_maximum",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909148,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleInit/max_conversations_triggers_LRU_eviction",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909148,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleInit/duplicate_INIT_returns_status_without_leaking_state",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909148,
+        "stop": 1777855909148,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleInit/concurrent_duplicate_INITs",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909148,
+        "stop": 1777855909148,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleInit",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909148,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleData/store_single_chunk",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909148,
+        "stop": 1777855909150,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleData/store_multiple_chunks_with_gaps",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909148,
+        "stop": 1777855909150,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleData/unknown_conversation",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909149,
+        "stop": 1777855909150,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleData/sequence_out_of_bounds",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909149,
+        "stop": 1777855909150,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleData/short-circuit_for_completed_conversation",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909150,
+        "stop": 1777855909151,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleData/data_for_missing_conversation_returns_not_found",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909150,
+        "stop": 1777855909151,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleData",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909148,
+        "stop": 1777855909151,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleFetch/fetch_single_response",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909151,
+        "stop": 1777855909152,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleFetch/fetch_chunked_response_metadata",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909151,
+        "stop": 1777855909152,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleFetch/fetch_specific_chunk",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909151,
+        "stop": 1777855909152,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleFetch/fetch_unknown_conversation",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909151,
+        "stop": 1777855909152,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleFetch/fetch_with_no_response_ready_returns_empty",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909152,
+        "stop": 1777855909152,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleFetch/fetch_chunk_out_of_bounds",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909152,
+        "stop": 1777855909152,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleFetch",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909151,
+        "stop": 1777855909152,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleComplete/complete_returns_status",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909152,
+        "stop": 1777855909154,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleComplete/duplicate_COMPLETE_is_idempotent",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909153,
+        "stop": 1777855909154,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleComplete/COMPLETE_for_nonexistent_conversation_returns_status",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909153,
+        "stop": 1777855909154,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleComplete/concurrent_COMPLETEs_all_succeed",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909153,
+        "stop": 1777855909154,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerHandleComplete",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909152,
+        "stop": 1777855909154,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerConcurrentAccess",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909154,
+        "stop": 1777855909156,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerLRUEviction/evicts_oldest_when_at_capacity",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909156,
+        "stop": 1777855909156,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerLRUEviction/Get_refreshes_recency",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909156,
+        "stop": 1777855909156,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestManagerLRUEviction",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909156,
+        "stop": 1777855909156,
+        "suite": "realm.pub/tavern/internal/c2/conversation",
+        "filePath": "tavern/internal/c2/conversation/manager_test.go"
+      },
+      {
+        "name": "TestReportFile/MissingTaskID",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909141,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/MissingPath",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909143,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/NewFile_Single",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909146,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/NewFile_MultiChunk",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855909148,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/Replace_File",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909154,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/No_Prexisting_Files",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909159,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/SmallImage",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909162,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/LargeTextFile",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855909166,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/LargeImageFile",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855909210,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile/BinaryFile",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855909240,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportFile",
+        "status": "passed",
+        "duration": 160,
+        "start": 1777855909102,
+        "stop": 1777855909264,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_file_test.go"
+      },
+      {
+        "name": "TestReportOutput/First_Output",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909286,
+        "stop": 1777855909305,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_output_test.go"
+      },
+      {
+        "name": "TestReportOutput/First_error",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909290,
+        "stop": 1777855909305,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_output_test.go"
+      },
+      {
+        "name": "TestReportOutput/Append_Output",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909293,
+        "stop": 1777855909305,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_output_test.go"
+      },
+      {
+        "name": "TestReportOutput/Exec_Finished",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909295,
+        "stop": 1777855909305,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_output_test.go"
+      },
+      {
+        "name": "TestReportOutput/Not_Found",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909299,
+        "stop": 1777855909305,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_output_test.go"
+      },
+      {
+        "name": "TestReportOutput/Invalid_Argument",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909302,
+        "stop": 1777855909305,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_output_test.go"
+      },
+      {
+        "name": "TestReportOutput",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855909264,
+        "stop": 1777855909305,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_output_test.go"
+      },
+      {
+        "name": "TestReportProcessList/New_List",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855909329,
+        "stop": 1777855909352,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_process_list_test.go"
+      },
+      {
+        "name": "TestReportProcessList/Updated_List",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855909337,
+        "stop": 1777855909352,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_process_list_test.go"
+      },
+      {
+        "name": "TestReportProcessList/No_TaskID",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909343,
+        "stop": 1777855909352,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_process_list_test.go"
+      },
+      {
+        "name": "TestReportProcessList/No_Processes",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909343,
+        "stop": 1777855909352,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_process_list_test.go"
+      },
+      {
+        "name": "TestReportProcessList/Not_Found",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855909348,
+        "stop": 1777855909352,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_process_list_test.go"
+      },
+      {
+        "name": "TestReportProcessList",
+        "status": "passed",
+        "duration": 50,
+        "start": 1777855909305,
+        "stop": 1777855909352,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/api_report_process_list_test.go"
+      },
+      {
+        "name": "TestDockerExecutor_Build_SimpleEcho",
+        "status": "passed",
+        "duration": 2060,
+        "start": 1777855907463,
+        "stop": 1777855909517,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/docker_test.go"
+      },
+      {
+        "name": "TestReverseShell_E2E",
+        "status": "passed",
+        "duration": 520,
+        "start": 1777855909352,
+        "stop": 1777855909872,
+        "suite": "realm.pub/tavern/internal/c2",
+        "filePath": "tavern/internal/c2/reverse_shell_e2e_test.go"
+      },
+      {
+        "name": "TestCredentialKindValues",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910435,
+        "stop": 1777855910435,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindValue",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910435,
+        "stop": 1777855910436,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindMarshalGraphQL",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910436,
+        "stop": 1777855910437,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindUnmarshalGraphQL",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910437,
+        "stop": 1777855910437,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindScan/PASSWORD_String",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910437,
+        "stop": 1777855910439,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindScan/SSH_KEY_[]uint8",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910437,
+        "stop": 1777855910439,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindScan/Invalid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910438,
+        "stop": 1777855910439,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindScan/Empty",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910438,
+        "stop": 1777855910439,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindScan/Nil",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910438,
+        "stop": 1777855910439,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestCredentialKindScan",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910437,
+        "stop": 1777855910439,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_credential_kind_test.go"
+      },
+      {
+        "name": "TestProcessStatusValues",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910439,
+        "stop": 1777855910439,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusValue",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910439,
+        "stop": 1777855910440,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusMarshalGraphQL",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910440,
+        "stop": 1777855910440,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusUnmarshalGraphQL",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910440,
+        "stop": 1777855910440,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusScan/RUN_String",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910440,
+        "stop": 1777855910441,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusScan/IDLE_[]uint8",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910441,
+        "stop": 1777855910442,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusScan/Invalid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910441,
+        "stop": 1777855910442,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusScan/Empty",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910441,
+        "stop": 1777855910442,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusScan/Nil",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910441,
+        "stop": 1777855910442,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestProcessStatusScan",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855910440,
+        "stop": 1777855910442,
+        "suite": "realm.pub/tavern/internal/c2/epb",
+        "filePath": "tavern/internal/c2/epb/enum_process_status_test.go"
+      },
+      {
+        "name": "TestDockerExecutor_Build_MultiLineOutput",
+        "status": "passed",
+        "duration": 960,
+        "start": 1777855909517,
+        "stop": 1777855910480,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/docker_test.go"
+      },
+      {
+        "name": "TestDownloadHostFile/Valid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911203,
+        "stop": 1777855911217,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_hostfile_test.go"
+      },
+      {
+        "name": "TestDownloadHostFile/NotFound",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911204,
+        "stop": 1777855911217,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_hostfile_test.go"
+      },
+      {
+        "name": "TestDownloadHostFile/InvalidID/Alphabet",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911204,
+        "stop": 1777855911217,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownloadHostFile/InvalidID/Empty",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911204,
+        "stop": 1777855911217,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownloadHostFile/Cached",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911204,
+        "stop": 1777855911217,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_hostfile_test.go"
+      },
+      {
+        "name": "TestDownloadHostFile/ChunkedDownload",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911204,
+        "stop": 1777855911217,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownloadHostFile",
+        "status": "passed",
+        "duration": 60,
+        "start": 1777855911158,
+        "stop": 1777855911217,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_hostfile_test.go"
+      },
+      {
+        "name": "TestDownloadLink/Valid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911250,
+        "stop": 1777855911272,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownloadLink/NotFound",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911260,
+        "stop": 1777855911272,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_link_test.go"
+      },
+      {
+        "name": "TestDownloadLink/Expired",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911260,
+        "stop": 1777855911272,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_link_test.go"
+      },
+      {
+        "name": "TestDownloadLink/EmptyPath",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911260,
+        "stop": 1777855911272,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownloadLink/ChunkedDownload",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911260,
+        "stop": 1777855911272,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_link_test.go"
+      },
+      {
+        "name": "TestDownloadLink",
+        "status": "passed",
+        "duration": 50,
+        "start": 1777855911217,
+        "stop": 1777855911272,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_link_test.go"
+      },
+      {
+        "name": "TestDownloadScreenshot/Valid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911303,
+        "stop": 1777855911309,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_screenshot_test.go"
+      },
+      {
+        "name": "TestDownloadScreenshot/NotFound",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911304,
+        "stop": 1777855911309,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_screenshot_test.go"
+      },
+      {
+        "name": "TestDownloadScreenshot/InvalidID/Alphabet",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911304,
+        "stop": 1777855911309,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_screenshot_test.go"
+      },
+      {
+        "name": "TestDownloadScreenshot/InvalidID/Empty",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911305,
+        "stop": 1777855911309,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_screenshot_test.go"
+      },
+      {
+        "name": "TestDownloadScreenshot/Cached",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911305,
+        "stop": 1777855911309,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_screenshot_test.go"
+      },
+      {
+        "name": "TestDownloadScreenshot/ChunkedDownload",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911305,
+        "stop": 1777855911309,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_screenshot_test.go"
+      },
+      {
+        "name": "TestDownloadScreenshot",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855911272,
+        "stop": 1777855911309,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_screenshot_test.go"
+      },
+      {
+        "name": "TestDownload/Asset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911337,
+        "stop": 1777855911347,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownload/CachedAsset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911338,
+        "stop": 1777855911347,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownload/NonExistentFile",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911338,
+        "stop": 1777855911347,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownload/ChunkedDownload",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911342,
+        "stop": 1777855911347,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestDownload",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855911309,
+        "stop": 1777855911347,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/download_test.go"
+      },
+      {
+        "name": "TestUpload/NewAsset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911376,
+        "stop": 1777855911413,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/upload_test.go"
+      },
+      {
+        "name": "TestUpload/ExistingAsset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911380,
+        "stop": 1777855911413,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/upload_test.go"
+      },
+      {
+        "name": "TestUpload",
+        "status": "passed",
+        "duration": 70,
+        "start": 1777855911347,
+        "stop": 1777855911413,
+        "suite": "realm.pub/tavern/internal/cdn",
+        "filePath": "tavern/internal/cdn/upload_test.go"
+      },
+      {
+        "name": "TestDockerExecutor_Build_StderrOutput",
+        "status": "passed",
+        "duration": 1020,
+        "start": 1777855910480,
+        "stop": 1777855911499,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/docker_test.go"
+      },
+      {
+        "name": "TestLRUCache",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911684,
+        "stop": 1777855911685,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestNewSyncMap",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911685,
+        "stop": 1777855911685,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestSyncMap_StoreLoad",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911685,
+        "stop": 1777855911685,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestSyncMap_String",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911685,
+        "stop": 1777855911685,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestGenerateSharedKey",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911685,
+        "stop": 1777855911688,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestGenerateSharedKey_InvalidKey",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911688,
+        "stop": 1777855911689,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestDecrypt",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911689,
+        "stop": 1777855911693,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestDecrypt_ShortInput",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911693,
+        "stop": 1777855911694,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestDecrypt_ShortInputAfterKey",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911694,
+        "stop": 1777855911696,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestGoAllIds",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911696,
+        "stop": 1777855911697,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestCastBytesToBufSlice",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911697,
+        "stop": 1777855911697,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestCryptoSvc_Encrypt_NoSession",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911697,
+        "stop": 1777855911698,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestCryptoSvc_Encrypt_WithSession",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911698,
+        "stop": 1777855911702,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestNewStreamDecryptCodec",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911702,
+        "stop": 1777855911702,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestStreamDecryptCodec_Marshal_Unmarshal_Error",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855911702,
+        "stop": 1777855911703,
+        "suite": "realm.pub/tavern/internal/cryptocodec",
+        "filePath": "tavern/internal/cryptocodec/cryptocodec_test.go"
+      },
+      {
+        "name": "TestDockerExecutor_Build_NonZeroExit",
+        "status": "passed",
+        "duration": 940,
+        "start": 1777855911499,
+        "stop": 1777855912442,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/docker_test.go"
+      },
+      {
+        "name": "TestDockerExecutor_Build_ContextCancellation",
+        "status": "passed",
+        "duration": 5960,
+        "start": 1777855912442,
+        "stop": 1777855918405,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/docker_test.go"
+      },
+      {
+        "name": "TestDockerExecutor_Build_StreamsOutputInRealTime",
+        "status": "passed",
+        "duration": 1580,
+        "start": 1777855918405,
+        "stop": 1777855919987,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/docker_test.go"
+      },
+      {
+        "name": "TestMockExecutor_DefaultBehavior",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855919987,
+        "stop": 1777855919987,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/mock_test.go"
+      },
+      {
+        "name": "TestMockExecutor_RecordsMultipleCalls",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855919987,
+        "stop": 1777855919987,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/mock_test.go"
+      },
+      {
+        "name": "TestMockExecutor_CustomBuildFn_StreamsOutput",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855919987,
+        "stop": 1777855919987,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/mock_test.go"
+      },
+      {
+        "name": "TestMockExecutor_CustomBuildFn_StreamsErrors",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855919987,
+        "stop": 1777855919987,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/mock_test.go"
+      },
+      {
+        "name": "TestMockExecutor_CustomBuildFn_ContextCancellation",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855919987,
+        "stop": 1777855919987,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/mock_test.go"
+      },
+      {
+        "name": "TestMockExecutor_CustomBuildFn_InterleavedOutputAndErrors",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855919987,
+        "stop": 1777855919988,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/mock_test.go"
+      },
+      {
+        "name": "TestMockExecutor_ImplementsInterface",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855919988,
+        "stop": 1777855919988,
+        "suite": "realm.pub/tavern/internal/builder/executor",
+        "filePath": "tavern/internal/builder/executor/mock_test.go"
+      },
+      {
+        "name": "TestHookDeriveNotifications/HOST_ACCESS_NEW_creates_notification",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855948489,
+        "stop": 1777855948497,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestHookDeriveNotifications",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855948465,
+        "stop": 1777855948497,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestHookDeriveNotifications_HostAccessRecovered/via_UpdateOne",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855948497,
+        "stop": 1777855948555,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestHookDeriveNotifications_HostAccessRecovered/via_Upsert",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855948532,
+        "stop": 1777855948555,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestHookDeriveNotifications_HostAccessRecovered",
+        "status": "passed",
+        "duration": 60,
+        "start": 1777855948497,
+        "stop": 1777855948555,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestHookDeriveUserRequestEvents/non-activated_user_creates_event_and_notifies_admins",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855948555,
+        "stop": 1777855948628,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestHookDeriveUserRequestEvents/activated_user_does_not_create_event",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855948572,
+        "stop": 1777855948628,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestHookDeriveUserRequestEvents/multiple_admins_all_receive_notifications",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855948589,
+        "stop": 1777855948628,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestHookDeriveUserRequestEvents",
+        "status": "passed",
+        "duration": 70,
+        "start": 1777855948555,
+        "stop": 1777855948628,
+        "suite": "realm.pub/tavern/internal/ent",
+        "filePath": "tavern/internal/ent/hook_events_test.go"
+      },
+      {
+        "name": "TestNewJSONStringString/Empty",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950339,
+        "stop": 1777855950339,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewJSONStringString/Valid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950339,
+        "stop": 1777855950339,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewJSONStringString/Invalid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950339,
+        "stop": 1777855950339,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewJSONStringString/Partial",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950339,
+        "stop": 1777855950341,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewJSONStringString",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950338,
+        "stop": 1777855950341,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewTomeParameterDefinitions/Empty",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950341,
+        "stop": 1777855950341,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewTomeParameterDefinitions/Int32",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950341,
+        "stop": 1777855950341,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewTomeParameterDefinitions/Multiple",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950341,
+        "stop": 1777855950341,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewTomeParameterDefinitions/Valid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950341,
+        "stop": 1777855950341,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewTomeParameterDefinitions/Invalid",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950341,
+        "stop": 1777855950341,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewTomeParameterDefinitions/Partial",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950341,
+        "stop": 1777855950343,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestNewTomeParameterDefinitions",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950341,
+        "stop": 1777855950343,
+        "suite": "realm.pub/tavern/internal/ent/schema/validators",
+        "filePath": "tavern/internal/ent/schema/validators/json_test.go"
+      },
+      {
+        "name": "TestAssetHooks",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855950332,
+        "stop": 1777855950349,
+        "suite": "realm.pub/tavern/internal/ent/schema",
+        "filePath": "tavern/internal/cdn/upload_test.go"
+      },
+      {
+        "name": "TestMultipleTomes",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855950349,
+        "stop": 1777855950373,
+        "suite": "realm.pub/tavern/internal/ent/schema",
+        "filePath": "tavern/internal/ent/schema/asset_test.go"
+      },
+      {
+        "name": "TestHostFileHooks",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855950373,
+        "stop": 1777855950389,
+        "suite": "realm.pub/tavern/internal/ent/schema",
+        "filePath": "tavern/internal/ent/schema/host_file_test.go"
+      },
+      {
+        "name": "TestCreateLinkWithExplicitExpiresAt",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855950389,
+        "stop": 1777855950406,
+        "suite": "realm.pub/tavern/internal/ent/schema",
+        "filePath": "tavern/internal/ent/schema/link_test.go"
+      },
+      {
+        "name": "TestWrapHandler/BasicError",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950988,
+        "stop": 1777855950988,
+        "suite": "realm.pub/tavern/internal/errors",
+        "filePath": "tavern/internal/errors/http_test.go"
+      },
+      {
+        "name": "TestWrapHandler/NoError",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950988,
+        "stop": 1777855950988,
+        "suite": "realm.pub/tavern/internal/errors",
+        "filePath": "tavern/internal/errors/http_test.go"
+      },
+      {
+        "name": "TestWrapHandler/UnhandledError",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950988,
+        "stop": 1777855950988,
+        "suite": "realm.pub/tavern/internal/errors",
+        "filePath": "tavern/internal/errors/http_test.go"
+      },
+      {
+        "name": "TestWrapHandler",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855950987,
+        "stop": 1777855950988,
+        "suite": "realm.pub/tavern/internal/errors",
+        "filePath": "tavern/internal/errors/http_test.go"
+      },
+      {
+        "name": "TestMetrics_QuestTimelineChart",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951135,
+        "stop": 1777855951149,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/metrics_test.go"
+      },
+      {
+        "name": "TestHandlerMissingToken",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951706,
+        "stop": 1777855951721,
+        "suite": "realm.pub/tavern/internal/hostcheck",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestHandlerInvalidToken",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951721,
+        "stop": 1777855951730,
+        "suite": "realm.pub/tavern/internal/hostcheck",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestHandlerWrongKeyToken",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951730,
+        "stop": 1777855951741,
+        "suite": "realm.pub/tavern/internal/hostcheck",
+        "filePath": "tavern/internal/hostcheck/handler_test.go"
+      },
+      {
+        "name": "TestHandlerValidToken",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951742,
+        "stop": 1777855951752,
+        "suite": "realm.pub/tavern/internal/hostcheck",
+        "filePath": "tavern/internal/hostcheck/handler_test.go"
+      },
+      {
+        "name": "TestNewTokenAndVerifyToken",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951752,
+        "stop": 1777855951752,
+        "suite": "realm.pub/tavern/internal/hostcheck",
+        "filePath": "tavern/internal/hostcheck/jwt_test.go"
+      },
+      {
+        "name": "TestVerifyTokenWrongKey",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951752,
+        "stop": 1777855951754,
+        "suite": "realm.pub/tavern/internal/hostcheck",
+        "filePath": "tavern/internal/hostcheck/jwt_test.go"
+      },
+      {
+        "name": "TestVerifyTokenWrongAudience",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951754,
+        "stop": 1777855951757,
+        "suite": "realm.pub/tavern/internal/hostcheck",
+        "filePath": "tavern/internal/hostcheck/jwt_test.go"
+      },
+      {
+        "name": "TestVerifyTokenInvalidString",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951757,
+        "stop": 1777855951757,
+        "suite": "realm.pub/tavern/internal/hostcheck",
+        "filePath": "tavern/internal/hostcheck/jwt_test.go"
+      },
+      {
+        "name": "TestRequestAuthenticator/SessionCookie",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951753,
+        "stop": 1777855951761,
+        "suite": "realm.pub/tavern/internal/http",
+        "filePath": "tavern/internal/http/auth_test.go"
+      },
+      {
+        "name": "TestRequestAuthenticator/AccessToken",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951754,
+        "stop": 1777855951761,
+        "suite": "realm.pub/tavern/internal/http",
+        "filePath": "tavern/internal/http/auth_test.go"
+      },
+      {
+        "name": "TestRequestAuthenticator/Unauthenticated",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951754,
+        "stop": 1777855951761,
+        "suite": "realm.pub/tavern/internal/http",
+        "filePath": "tavern/internal/http/auth_test.go"
+      },
+      {
+        "name": "TestRequestAuthenticator/InvalidSessionCookie",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951757,
+        "stop": 1777855951761,
+        "suite": "realm.pub/tavern/internal/http",
+        "filePath": "tavern/internal/http/auth_test.go"
+      },
+      {
+        "name": "TestRequestAuthenticator/InvalidAccessToken",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951757,
+        "stop": 1777855951761,
+        "suite": "realm.pub/tavern/internal/http",
+        "filePath": "tavern/internal/http/auth_test.go"
+      },
+      {
+        "name": "TestRequestAuthenticator/InvalidAccessTokenWithValidSession",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855951757,
+        "stop": 1777855951761,
+        "suite": "realm.pub/tavern/internal/http",
+        "filePath": "tavern/internal/http/auth_test.go"
+      },
+      {
+        "name": "TestRequestAuthenticator",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951736,
+        "stop": 1777855951761,
+        "suite": "realm.pub/tavern/internal/http",
+        "filePath": "tavern/internal/http/auth_test.go"
+      },
+      {
+        "name": "TestAPI/example",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951149,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createCredential/Host",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951161,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createCredential/HostAndTask",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951174,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createCredential",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855951161,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createLink/WithDownloadsRemaining",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951188,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createLink",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951188,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createQuest/NoBeacons",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951201,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createQuest/NoFiles",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951213,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createQuest/WithFiles",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951227,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createQuest",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855951200,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository/SCPURL",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951246,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository/SCPURLWIthSSH",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951260,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository/SCPURLWithoutUser",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951271,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository/SSHURLWithUser",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951284,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository/URLWithHTTP",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951297,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository/URLWithHTTPS",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951309,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository/URLWithoutSchema",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951320,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository/ValidURL",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951331,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createRepository",
+        "status": "passed",
+        "duration": 100,
+        "start": 1777855951245,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createTag/Group",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951342,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createTag/MultipleHosts",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951354,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createTag/Service",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951371,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createTag",
+        "status": "passed",
+        "duration": 50,
+        "start": 1777855951342,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createTome/NoFiles",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951388,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createTome/WithFiles",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951404,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/createTome",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855951388,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteAllNotifications/DeletesAll",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951422,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteAllNotifications/PermissionDenied",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855951438,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteAllNotifications",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855951422,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteAsset/AssociatedWithTome",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951467,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteAsset/PermissionDenied",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951486,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteAsset/Singular",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855951504,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteAsset/WithAssociatedLinks",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951533,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteAsset",
+        "status": "passed",
+        "duration": 80,
+        "start": 1777855951467,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteTome/PermissionDenied",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951549,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteTome/Singular",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951564,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/deleteTome",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855951548,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/dropAllData/DropsData",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951579,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/dropAllData/PermissionDenied",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951594,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/dropAllData/ReproConstraintError",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951610,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/dropAllData/WithEvents",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951631,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/dropAllData/foreign_key",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951656,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/dropAllData",
+        "status": "passed",
+        "duration": 90,
+        "start": 1777855951579,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/importRepository/ExistingTomes",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951670,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/importRepository/NoExistingTomes",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951685,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/importRepository",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855951670,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/subscribeToHost/Subscribe",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951698,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/subscribeToHost",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951698,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/unsubscribeFromHost/Unsubscribe",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951716,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/unsubscribeFromHost",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951716,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateBeacon/ChangeNameError",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951736,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateBeacon",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951736,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateHost/AddTag",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951755,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateHost/ChangeHostname",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951775,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateHost/RemoveTag",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951790,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateHost",
+        "status": "passed",
+        "duration": 50,
+        "start": 1777855951754,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateTag/ChangeName",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951802,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateTag",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951802,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateTome/PermissionDenied",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951813,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateTome/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951824,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateTome",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951813,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateUser/ChangeUsername",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951836,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateUser/PermissionDenied",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951847,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations/updateUser",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951836,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/mutations",
+        "status": "passed",
+        "duration": 700,
+        "start": 1777855951161,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/assets/FilterByID",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951858,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/assets/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951869,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/assets",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951858,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/beacons/FilterByID",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951881,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/beacons/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951892,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/beacons",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951881,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/hosts/Multiple",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951902,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/hosts/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951913,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/hosts",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855951902,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/metrics/beacon_timeline",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951924,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/metrics/tasks_by_tome",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951936,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/metrics",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855951924,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/notification",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951950,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests/BackwardPaginate",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951965,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests/FilterByID",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951976,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests/ForwardPaginate",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855951988,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests/Multiple",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952001,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests/OrderByPaginate",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952014,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952027,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests/TaskDiffs",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855952039,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests/TaskDiffsFiltered",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855952060,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/quests",
+        "status": "passed",
+        "duration": 120,
+        "start": 1777855951965,
+        "stop": 1777855952294,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/repositories/WithTomes",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952081,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/repositories",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952081,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tags/FilterByID",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855952095,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tags/FilterByKind",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855952110,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tags/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952127,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tags",
+        "status": "passed",
+        "duration": 50,
+        "start": 1777855952095,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tasks/BackwardPaginate",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952140,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tasks/FilterByID",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952152,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tasks/ForwardPaginate",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952163,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tasks/Multiple",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952175,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tasks/OrderByPaginate",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952187,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tasks/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952199,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tasks",
+        "status": "passed",
+        "duration": 70,
+        "start": 1777855952140,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tomes/FilterByID",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952209,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tomes/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952220,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/tomes",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855952209,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/users/FilterByID",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952230,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/users/Me",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952241,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/users/MeUnauthenticated",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952251,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/users/MeWithUnactivatedUser",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952261,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/users/Singular",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952273,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/users/UploadedTomes",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952283,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries/users",
+        "status": "passed",
+        "duration": 60,
+        "start": 1777855952230,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI/queries",
+        "status": "passed",
+        "duration": 440,
+        "start": 1777855951858,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestAPI",
+        "status": "passed",
+        "duration": 1150,
+        "start": 1777855951149,
+        "stop": 1777855952295,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/api_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask/NoBuilders",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952302,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask/NoMatchingBuilder",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952303,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask/SingleMatchingBuilder",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952305,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask/DefaultsApplied",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952308,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask/CustomArtifactPath",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952310,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask/MultipleMatchingBuilders",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855952312,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask/InvalidTargetFormat",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952341,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask/WindowsServiceFormat",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952343,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateBuildTask",
+        "status": "passed",
+        "duration": 50,
+        "start": 1777855952295,
+        "stop": 1777855952348,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/build_task_test.go"
+      },
+      {
+        "name": "TestCreateQuest/CreateWithoutFiles",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952357,
+        "stop": 1777855952369,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/quest_test.go"
+      },
+      {
+        "name": "TestCreateQuest/CreateWithAssets",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952360,
+        "stop": 1777855952369,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/quest_test.go"
+      },
+      {
+        "name": "TestCreateQuest",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855952348,
+        "stop": 1777855952369,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/quest_test.go"
+      },
+      {
+        "name": "TestTomeMutations/CreateTome/WithoutFiles",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952376,
+        "stop": 1777855952381,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/tome_test.go"
+      },
+      {
+        "name": "TestTomeMutations/CreateTome/WithAssets",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952378,
+        "stop": 1777855952381,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/tome_test.go"
+      },
+      {
+        "name": "TestTomeMutations/CreateTome",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952376,
+        "stop": 1777855952381,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/tome_test.go"
+      },
+      {
+        "name": "TestTomeMutations",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952369,
+        "stop": 1777855952381,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/tome_test.go"
+      },
+      {
+        "name": "TestUserMutations/Update",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952389,
+        "stop": 1777855952392,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/user_test.go"
+      },
+      {
+        "name": "TestUserMutations",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952381,
+        "stop": 1777855952392,
+        "suite": "realm.pub/tavern/internal/graphql",
+        "filePath": "tavern/internal/graphql/user_test.go"
+      },
+      {
+        "name": "TestCircularBuffer",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952875,
+        "stop": 1777855952876,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/circular_buffer_test.go"
+      },
+      {
+        "name": "TestNewHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952876,
+        "stop": 1777855952888,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestMCPStreamableHTTPEndpoint",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952888,
+        "stop": 1777855952901,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestMCPPostEndpointRequiresValidRequest",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952901,
+        "stop": 1777855952913,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestListQuestsHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952913,
+        "stop": 1777855952926,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestListHostsHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952926,
+        "stop": 1777855952939,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestListTomesHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952939,
+        "stop": 1777855952951,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestCreateQuestHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952951,
+        "stop": 1777855952964,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/graphql/quest_test.go"
+      },
+      {
+        "name": "TestQuestOutputHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952964,
+        "stop": 1777855952978,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/graphql/quest_test.go"
+      },
+      {
+        "name": "TestWaitForQuestHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952978,
+        "stop": 1777855952991,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestParseIntIDs/valid_string_ids",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952991,
+        "stop": 1777855952992,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestParseIntIDs/valid_numeric_ids",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952991,
+        "stop": 1777855952992,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestParseIntIDs/missing_key",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952991,
+        "stop": 1777855952992,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestParseIntIDs/invalid_string",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952991,
+        "stop": 1777855952992,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestParseIntIDs",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952991,
+        "stop": 1777855952992,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestGraphQLQueryHandler",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952992,
+        "stop": 1777855953002,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestGraphQLQueryValidation/valid_query",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855953002,
+        "stop": 1777855953003,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestGraphQLQueryValidation/valid_shorthand_query",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855953002,
+        "stop": 1777855953003,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestGraphQLQueryValidation/valid_introspection",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855953002,
+        "stop": 1777855953003,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestGraphQLQueryValidation/mutation_rejected",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855953002,
+        "stop": 1777855953003,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestGraphQLQueryValidation/subscription_rejected",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855953002,
+        "stop": 1777855953003,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestGraphQLQueryValidation/invalid_syntax",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855953002,
+        "stop": 1777855953003,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestGraphQLQueryValidation",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855953002,
+        "stop": 1777855953003,
+        "suite": "realm.pub/tavern/internal/mcp",
+        "filePath": "tavern/internal/mcp/mcp_test.go"
+      },
+      {
+        "name": "TestPreventPubSubColdStarts_ValidInterval",
+        "status": "passed",
+        "duration": 250,
+        "start": 1777855952876,
+        "stop": 1777855953128,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/gcp_coldstart_test.go"
+      },
+      {
+        "name": "TestPreventPubSubColdStarts_ZeroInterval",
+        "status": "passed",
+        "duration": 1000,
+        "start": 1777855953128,
+        "stop": 1777855954129,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/gcp_coldstart_test.go"
+      },
+      {
+        "name": "TestPreventPubSubColdStarts_SubMillisecondInterval",
+        "status": "passed",
+        "duration": 250,
+        "start": 1777855954129,
+        "stop": 1777855954379,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/gcp_coldstart_test.go"
+      },
+      {
+        "name": "TestPortalIntegration/AgentToUser_Ordered",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855954673,
+        "stop": 1777855954686,
+        "suite": "realm.pub/tavern/internal/portals",
+        "filePath": "tavern/internal/portals/integration_test.go"
+      },
+      {
+        "name": "TestPortalIntegration/UserToAgent_Ordered",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855954675,
+        "stop": 1777855954686,
+        "suite": "realm.pub/tavern/internal/portals",
+        "filePath": "tavern/internal/portals/integration_test.go"
+      },
+      {
+        "name": "TestPortalIntegration/AgentToUser_OutOfOrder",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855954676,
+        "stop": 1777855954686,
+        "suite": "realm.pub/tavern/internal/portals",
+        "filePath": "tavern/internal/portals/integration_test.go"
+      },
+      {
+        "name": "TestPortalIntegration/Integrity_TCP",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855954679,
+        "stop": 1777855954686,
+        "suite": "realm.pub/tavern/internal/portals",
+        "filePath": "tavern/internal/portals/integration_test.go"
+      },
+      {
+        "name": "TestPortalIntegration",
+        "status": "passed",
+        "duration": 540,
+        "start": 1777855954145,
+        "stop": 1777855954686,
+        "suite": "realm.pub/tavern/internal/portals",
+        "filePath": "tavern/internal/portals/integration_test.go"
+      },
+      {
+        "name": "TestPortalClose",
+        "status": "passed",
+        "duration": 130,
+        "start": 1777855954686,
+        "stop": 1777855954819,
+        "suite": "realm.pub/tavern/internal/portals",
+        "filePath": "tavern/internal/portals/portal_close_test.go"
+      },
+      {
+        "name": "TestNewShellHandler",
+        "status": "passed",
+        "duration": 520,
+        "start": 1777855954380,
+        "stop": 1777855954900,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/websocket_test.go"
+      },
+      {
+        "name": "TestStream_LateJoin",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952876,
+        "stop": 1777855954900,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/stream_test.go"
+      },
+      {
+        "name": "TestStream_MessageOrdering",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952876,
+        "stop": 1777855954900,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/stream_test.go"
+      },
+      {
+        "name": "TestStream_SendMessage",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855952876,
+        "stop": 1777855954900,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/stream_test.go"
+      },
+      {
+        "name": "TestGetRandomName/BasicName",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855953523,
+        "stop": 1777855954905,
+        "suite": "realm.pub/tavern/internal/namegen",
+        "filePath": "tavern/internal/namegen/namegen_test.go"
+      },
+      {
+        "name": "TestGetRandomName/NoDuplicates",
+        "status": "passed",
+        "duration": 1380,
+        "start": 1777855953524,
+        "stop": 1777855954905,
+        "suite": "realm.pub/tavern/internal/namegen",
+        "filePath": "tavern/internal/namegen/namegen_test.go"
+      },
+      {
+        "name": "TestGetRandomName",
+        "status": "passed",
+        "duration": 1380,
+        "start": 1777855953523,
+        "stop": 1777855954905,
+        "suite": "realm.pub/tavern/internal/namegen",
+        "filePath": "tavern/internal/namegen/namegen_test.go"
+      },
+      {
+        "name": "TestBeaconnameinstring/String_matches_a_beacon_name",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855954905,
+        "stop": 1777855954905,
+        "suite": "realm.pub/tavern/internal/namegen",
+        "filePath": "tavern/internal/namegen/namegen_test.go"
+      },
+      {
+        "name": "TestBeaconnameinstring/String_does_not_match_any_beacon_name",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855954905,
+        "stop": 1777855954905,
+        "suite": "realm.pub/tavern/internal/namegen",
+        "filePath": "tavern/internal/namegen/namegen_test.go"
+      },
+      {
+        "name": "TestBeaconnameinstring",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855954905,
+        "stop": 1777855954905,
+        "suite": "realm.pub/tavern/internal/namegen",
+        "filePath": "tavern/internal/namegen/namegen_test.go"
+      },
+      {
+        "name": "TestStream_Close",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855952876,
+        "stop": 1777855955151,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/stream_test.go"
+      },
+      {
+        "name": "TestMuxHistoryOrdering",
+        "status": "passed",
+        "duration": 250,
+        "start": 1777855954379,
+        "stop": 1777855955151,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/mux_test.go"
+      },
+      {
+        "name": "TestMux",
+        "status": "passed",
+        "duration": 250,
+        "start": 1777855954379,
+        "stop": 1777855955652,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/mux_test.go"
+      },
+      {
+        "name": "TestMuxHistory",
+        "status": "passed",
+        "duration": 750,
+        "start": 1777855954379,
+        "stop": 1777855955652,
+        "suite": "realm.pub/tavern/internal/http/stream",
+        "filePath": "tavern/internal/http/stream/mux_test.go"
+      },
+      {
+        "name": "TestMux_InMemory",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855955995,
+        "stop": 1777855956003,
+        "suite": "realm.pub/tavern/internal/portals/mux",
+        "filePath": "tavern/internal/http/stream/mux_test.go"
+      },
+      {
+        "name": "TestConnection_ReadWriteTCP",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855956069,
+        "stop": 1777855956070,
+        "suite": "realm.pub/tavern/internal/portals/pnet",
+        "filePath": "tavern/internal/portals/pnet/connection_test.go"
+      },
+      {
+        "name": "TestConnection_ReadWriteUDP",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855956070,
+        "stop": 1777855956070,
+        "suite": "realm.pub/tavern/internal/portals/pnet",
+        "filePath": "tavern/internal/portals/pnet/connection_test.go"
+      },
+      {
+        "name": "TestConnection_CloseSignalsEOF",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855956070,
+        "stop": 1777855956070,
+        "suite": "realm.pub/tavern/internal/portals/pnet",
+        "filePath": "tavern/internal/portals/pnet/connection_test.go"
+      },
+      {
+        "name": "TestConnection_Deadlines",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855956070,
+        "stop": 1777855956070,
+        "suite": "realm.pub/tavern/internal/portals/pnet",
+        "filePath": "tavern/internal/portals/pnet/connection_test.go"
+      },
+      {
+        "name": "TestMux_CreatePortal",
+        "status": "passed",
+        "duration": 80,
+        "start": 1777855956003,
+        "stop": 1777855956082,
+        "suite": "realm.pub/tavern/internal/portals/mux",
+        "filePath": "tavern/internal/http/stream/mux_test.go"
+      },
+      {
+        "name": "TestMux_OpenPortal",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855956082,
+        "stop": 1777855956086,
+        "suite": "realm.pub/tavern/internal/portals/mux",
+        "filePath": "tavern/internal/http/stream/mux_test.go"
+      },
+      {
+        "name": "TestWithSubscriberBufferSize",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855956086,
+        "stop": 1777855956087,
+        "suite": "realm.pub/tavern/internal/portals/mux",
+        "filePath": "tavern/internal/portals/mux/mux_test.go"
+      },
+      {
+        "name": "TestMux_CreatePortal_ShellTask",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855956087,
+        "stop": 1777855956107,
+        "suite": "realm.pub/tavern/internal/portals/mux",
+        "filePath": "tavern/internal/portals/mux/mux_test.go"
+      },
+      {
+        "name": "TestMux_DispatchTimeout_Drop",
+        "status": "passed",
+        "duration": 100,
+        "start": 1777855956107,
+        "stop": 1777855956210,
+        "suite": "realm.pub/tavern/internal/portals/mux",
+        "filePath": "tavern/internal/portals/mux/timeout_test.go"
+      },
+      {
+        "name": "TestMux_DispatchTimeout_Success",
+        "status": "passed",
+        "duration": 50,
+        "start": 1777855956210,
+        "stop": 1777855956264,
+        "suite": "realm.pub/tavern/internal/portals/mux",
+        "filePath": "tavern/internal/portals/mux/timeout_test.go"
+      },
+      {
+        "name": "TestGCPDriver",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855957098,
+        "stop": 1777855957119,
+        "suite": "realm.pub/tavern/internal/portals/pubsub",
+        "filePath": "tavern/internal/portals/pubsub/gcp_test.go"
+      },
+      {
+        "name": "TestInteractiveShell",
+        "status": "passed",
+        "duration": 5050,
+        "start": 1777855952087,
+        "stop": 1777855957131,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestParseListenAddr/default_port_with_multiple_domains",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957478,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseListenAddr/custom_port_with_single_domain",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957478,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseListenAddr/no_query_params",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957478,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseListenAddr/empty_domain_value",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957478,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseListenAddr/mixed_valid_and_empty_domains",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957478,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseListenAddr/malformed_URL_encoding",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957478,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseListenAddr",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957478,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestExtractSubdomain/simple_subdomain",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestExtractSubdomain/multi-label_subdomain",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestExtractSubdomain/subdomain_with_longer_base_domain",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestExtractSubdomain/no_matching_base_domain",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestExtractSubdomain/only_base_domain_(no_subdomain)",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestExtractSubdomain/case_insensitive_match",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestExtractSubdomain",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957479,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestDecodePacket/valid_INIT_packet",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957481,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestDecodePacket/valid_DATA_packet_with_CRC",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957480,
+        "stop": 1777855957481,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestDecodePacket/DATA_packet_with_invalid_CRC",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957480,
+        "stop": 1777855957481,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestDecodePacket/invalid_Base32",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957480,
+        "stop": 1777855957481,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestDecodePacket/invalid_protobuf",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957480,
+        "stop": 1777855957481,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestDecodePacket/packet_with_labels_(dots)",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957481,
+        "stop": 1777855957481,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestDecodePacket",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957479,
+        "stop": 1777855957481,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseDomainNameAndType/valid_TXT_query",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957481,
+        "stop": 1777855957482,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseDomainNameAndType/valid_A_query",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957481,
+        "stop": 1777855957482,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseDomainNameAndType/valid_AAAA_query",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957481,
+        "stop": 1777855957482,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseDomainNameAndType/truncated_query",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957481,
+        "stop": 1777855957482,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseDomainNameAndType/query_too_short_for_type",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957481,
+        "stop": 1777855957482,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestParseDomainNameAndType",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957481,
+        "stop": 1777855957482,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestBuildDNSResponse/TXT_record_response",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957482,
+        "stop": 1777855957482,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestBuildDNSResponse",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855957482,
+        "stop": 1777855957482,
+        "suite": "realm.pub/tavern/internal/redirectors/dns",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestGCPDriver_Failure",
+        "status": "passed",
+        "duration": 1000,
+        "start": 1777855957119,
+        "stop": 1777855958121,
+        "suite": "realm.pub/tavern/internal/portals/pubsub",
+        "filePath": "tavern/internal/portals/pubsub/gcp_test.go"
+      },
+      {
+        "name": "TestNonInteractiveShell",
+        "status": "passed",
+        "duration": 1020,
+        "start": 1777855957131,
+        "stop": 1777855958150,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestInMemoryDriver",
+        "status": "passed",
+        "duration": 110,
+        "start": 1777855958121,
+        "stop": 1777855958227,
+        "suite": "realm.pub/tavern/internal/portals/pubsub",
+        "filePath": "tavern/internal/portals/pubsub/mem_test.go"
+      },
+      {
+        "name": "TestRedirector_FullDuplexCall",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855958557,
+        "stop": 1777855958563,
+        "suite": "realm.pub/tavern/internal/redirectors/grpc",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestRedirector_ContextCancellation",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855958563,
+        "stop": 1777855958566,
+        "suite": "realm.pub/tavern/internal/redirectors/grpc",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestRedirector_UpstreamFailure",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855958566,
+        "stop": 1777855958569,
+        "suite": "realm.pub/tavern/internal/redirectors/grpc",
+        "filePath": "tavern/internal/redirectors/dns/dns_test.go"
+      },
+      {
+        "name": "TestFrameHeaderNew",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959248,
+        "stop": 1777855959248,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestFrameHeaderEncode",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959248,
+        "stop": 1777855959248,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestTryDecodeSuccess",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959248,
+        "stop": 1777855959248,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestTryDecodeInsufficientData",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959248,
+        "stop": 1777855959248,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestExtractFrameSuccess",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959248,
+        "stop": 1777855959248,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestExtractFrameIncomplete",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959248,
+        "stop": 1777855959248,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestExtractFrameMultiple",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959248,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestExtractFrameZeroLength",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959249,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestFrameHeaderMaxLength",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959249,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestFrameHeaderCompressionFlag",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959249,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestFrameHeaderPartialFrameAcrossReads",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959249,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestFrameHeaderRoundtrip",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959249,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestExtractFrameWithTrailingData",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959249,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_frame_test.go"
+      },
+      {
+        "name": "TestStreamConfigFetchAsset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959249,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_stream_test.go"
+      },
+      {
+        "name": "TestStreamConfigReportFile",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959249,
+        "stop": 1777855959249,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_stream_test.go"
+      },
+      {
+        "name": "TestCreateStreamWithContext",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855959249,
+        "stop": 1777855959256,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_stream_test.go"
+      },
+      {
+        "name": "TestStreamConfigProperties/FetchAsset",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959257,
+        "stop": 1777855959257,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_stream_test.go"
+      },
+      {
+        "name": "TestStreamConfigProperties/ReportFile",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959257,
+        "stop": 1777855959257,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_stream_test.go"
+      },
+      {
+        "name": "TestStreamConfigProperties",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959256,
+        "stop": 1777855959257,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/grpc_stream_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_Set",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959257,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_Not_Set_IPv4",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959257,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_Not_Set_IPv6",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959257,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_Not_Set_IPv6_Localhost",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959257,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_Empty_Falls_Back_To_RemoteAddr",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959257,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_With_Multiple_IPs",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959258,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/X-Forwarded-For_Malformed_IP",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959258,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/RemoteAddr_Without_Port",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959258,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP/RemoteAddr_Multiple_Colons_IPv6_With_Port",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959258,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestGetClientIP",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959257,
+        "stop": 1777855959258,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/c2/server_test.go"
+      },
+      {
+        "name": "TestRequirePOST/POST",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959258,
+        "stop": 1777855959259,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestRequirePOST/GET",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959258,
+        "stop": 1777855959259,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestRequirePOST/PUT",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959259,
+        "stop": 1777855959259,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestRequirePOST",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959258,
+        "stop": 1777855959259,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestReadRequestBody/Valid_body",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959259,
+        "stop": 1777855959259,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestReadRequestBody/Error_reading_body",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959259,
+        "stop": 1777855959259,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestReadRequestBody",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959259,
+        "stop": 1777855959259,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestSetGRPCResponseHeaders",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959259,
+        "stop": 1777855959259,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestGetFlusher/Supports_Flusher",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959259,
+        "stop": 1777855959260,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestGetFlusher/Does_Not_Support_Flusher",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959260,
+        "stop": 1777855959260,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestGetFlusher",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959259,
+        "stop": 1777855959260,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestHandleStreamError",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959260,
+        "stop": 1777855959260,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestCreateRequestContext",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959260,
+        "stop": 1777855959260,
+        "suite": "realm.pub/tavern/internal/redirectors/http1",
+        "filePath": "tavern/internal/redirectors/http1/http_test.go"
+      },
+      {
+        "name": "TestRegister",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959688,
+        "stop": 1777855959688,
+        "suite": "realm.pub/tavern/internal/scheduler",
+        "filePath": "tavern/internal/scheduler/scheduler_test.go"
+      },
+      {
+        "name": "TestRegisterNilPanics",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959688,
+        "stop": 1777855959688,
+        "suite": "realm.pub/tavern/internal/scheduler",
+        "filePath": "tavern/internal/scheduler/scheduler_test.go"
+      },
+      {
+        "name": "TestRegisterDuplicatePanics",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959688,
+        "stop": 1777855959688,
+        "suite": "realm.pub/tavern/internal/scheduler",
+        "filePath": "tavern/internal/scheduler/scheduler_test.go"
+      },
+      {
+        "name": "TestNewUnknownDriver",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959688,
+        "stop": 1777855959688,
+        "suite": "realm.pub/tavern/internal/scheduler",
+        "filePath": "tavern/internal/scheduler/scheduler_test.go"
+      },
+      {
+        "name": "TestNewMissingScheme",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855959688,
+        "stop": 1777855959689,
+        "suite": "realm.pub/tavern/internal/scheduler",
+        "filePath": "tavern/internal/scheduler/scheduler_test.go"
+      },
+      {
+        "name": "TestPTYOutputDelivery",
+        "status": "passed",
+        "duration": 3230,
+        "start": 1777855956747,
+        "stop": 1777855959974,
+        "suite": "realm.pub/tavern/internal/portals/pty",
+        "filePath": "tavern/internal/portals/pty/websocket_test.go"
+      },
+      {
+        "name": "TestDriverRegistered",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960282,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/GET",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/POST",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/PUT",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/DELETE",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/PATCH",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/HEAD",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/OPTIONS",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/get",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/#00",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto/INVALID",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestHTTPMethodToProto",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960283,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/gcp/gcp_test.go"
+      },
+      {
+        "name": "TestScheduleDuplicate",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960283,
+        "stop": 1777855960284,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestScheduleCreatesJob",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960284,
+        "stop": 1777855960284,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestScheduleAtCreatesJob",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960284,
+        "stop": 1777855960284,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestScheduleAtDuplicate",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960284,
+        "stop": 1777855960285,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestScheduleAtNonUTCTime",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960285,
+        "stop": 1777855960285,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestScheduleAtDefaultMethod",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855960285,
+        "stop": 1777855960286,
+        "suite": "realm.pub/tavern/internal/scheduler/gcp",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestSchedule",
+        "status": "passed",
+        "duration": 400,
+        "start": 1777855960700,
+        "stop": 1777855961102,
+        "suite": "realm.pub/tavern/internal/scheduler/mem",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestScheduleDuplicate",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855961102,
+        "stop": 1777855961102,
+        "suite": "realm.pub/tavern/internal/scheduler/mem",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestScheduleInvalidCron",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855961103,
+        "stop": 1777855961103,
+        "suite": "realm.pub/tavern/internal/scheduler/mem",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestClose",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855961103,
+        "stop": 1777855961103,
+        "suite": "realm.pub/tavern/internal/scheduler/mem",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestDriverRegistered",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855961103,
+        "stop": 1777855961103,
+        "suite": "realm.pub/tavern/internal/scheduler/mem",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestScheduleMultipleJobs",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855961103,
+        "stop": 1777855961103,
+        "suite": "realm.pub/tavern/internal/scheduler/mem",
+        "filePath": "tavern/internal/scheduler/mem/mem_test.go"
+      },
+      {
+        "name": "TestGetSecretsFile",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855961306,
+        "stop": 1777855961309,
+        "suite": "realm.pub/tavern/internal/secrets",
+        "filePath": "tavern/internal/secrets/debug_file_test.go"
+      },
+      {
+        "name": "TestSetSecretsAddFile",
+        "status": "passed",
+        "duration": 100,
+        "start": 1777855961309,
+        "stop": 1777855961405,
+        "suite": "realm.pub/tavern/internal/secrets",
+        "filePath": "tavern/internal/secrets/debug_file_test.go"
+      },
+      {
+        "name": "TestSetSecretsNewFile",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855961405,
+        "stop": 1777855961427,
+        "suite": "realm.pub/tavern/internal/secrets",
+        "filePath": "tavern/internal/secrets/debug_file_test.go"
+      },
+      {
+        "name": "TestSequencer",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855962301,
+        "stop": 1777855962302,
+        "suite": "realm.pub/tavern/portals/stream",
+        "filePath": "tavern/portals/stream/stream_test.go"
+      },
+      {
+        "name": "TestOrderedWriter",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855962302,
+        "stop": 1777855962302,
+        "suite": "realm.pub/tavern/portals/stream",
+        "filePath": "tavern/portals/stream/stream_test.go"
+      },
+      {
+        "name": "TestOrderedReader_Ordered",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855962302,
+        "stop": 1777855962302,
+        "suite": "realm.pub/tavern/portals/stream",
+        "filePath": "tavern/portals/stream/stream_test.go"
+      },
+      {
+        "name": "TestOrderedReader_OutOfOrder",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855962302,
+        "stop": 1777855962302,
+        "suite": "realm.pub/tavern/portals/stream",
+        "filePath": "tavern/portals/stream/stream_test.go"
+      },
+      {
+        "name": "TestOrderedReader_StaleTimeout",
+        "status": "passed",
+        "duration": 60,
+        "start": 1777855962302,
+        "stop": 1777855962363,
+        "suite": "realm.pub/tavern/portals/stream",
+        "filePath": "tavern/portals/stream/stream_test.go"
+      },
+      {
+        "name": "TestOrderedReader_BufferLimit",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855962363,
+        "stop": 1777855962364,
+        "suite": "realm.pub/tavern/portals/stream",
+        "filePath": "tavern/portals/stream/stream_test.go"
+      },
+      {
+        "name": "TestOrderedReader_DuplicateHandling",
+        "status": "passed",
+        "duration": 0,
+        "start": 1777855962364,
+        "stop": 1777855962364,
+        "suite": "realm.pub/tavern/portals/stream",
+        "filePath": "tavern/portals/stream/stream_test.go"
+      },
+      {
+        "name": "TestImportFromRepo",
+        "status": "passed",
+        "duration": 40,
+        "start": 1777855962588,
+        "stop": 1777855962623,
+        "suite": "realm.pub/tavern/tomes",
+        "filePath": "tavern/tomes/git_test.go"
+      },
+      {
+        "name": "TestUploadTomes",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855962623,
+        "stop": 1777855962656,
+        "suite": "realm.pub/tavern/tomes",
+        "filePath": "tavern/internal/cdn/upload_test.go"
+      },
+      {
+        "name": "TestOtherStreamOutput",
+        "status": "passed",
+        "duration": 5020,
+        "start": 1777855958150,
+        "stop": 1777855963175,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestOtherStreamOutput_Polling",
+        "status": "passed",
+        "duration": 20,
+        "start": 1777855963175,
+        "stop": 1777855963191,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestPTYOutputOrdering",
+        "status": "passed",
+        "duration": 3330,
+        "start": 1777855959974,
+        "stop": 1777855963302,
+        "suite": "realm.pub/tavern/internal/portals/pty",
+        "filePath": "tavern/internal/portals/pty/websocket_test.go"
+      },
+      {
+        "name": "TestTruncation",
+        "status": "passed",
+        "duration": 1020,
+        "start": 1777855963191,
+        "stop": 1777855964212,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestLargeShellTask",
+        "status": "passed",
+        "duration": 10,
+        "start": 1777855964212,
+        "stop": 1777855964227,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestShellHistory_Interactive",
+        "status": "passed",
+        "duration": 30,
+        "start": 1777855964227,
+        "stop": 1777855964254,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestPortalDowngrade",
+        "status": "passed",
+        "duration": 6020,
+        "start": 1777855964254,
+        "stop": 1777855970277,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      },
+      {
+        "name": "TestShellActiveUsers",
+        "status": "passed",
+        "duration": 220,
+        "start": 1777855970277,
+        "stop": 1777855970493,
+        "suite": "realm.pub/tavern/internal/http/shell",
+        "filePath": "tavern/internal/http/shell/integration_test.go"
+      }
+    ],
+    "extra": {}
+  }
+}
